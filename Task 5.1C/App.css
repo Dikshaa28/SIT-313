@@ -1,0 +1,47 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #D8D9E6;        
+  margin: 0;
+  padding: 0;
+  color: #2C2C2C;
+}
+
+/* Headings */
+h2, h3 {
+  color: #6A5ACD;       
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+
+.new-post, .question-form, .article-form {
+  background: #FFFFFF;
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0px 6px 18px rgba(0,0,0,0.12);
+}
+
+/* Labels */
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #444;
+}
+
+
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  border-color: #9370DB;       
+  background: #d3c9ec;
+}
+
+
+
+
+
+
+ 

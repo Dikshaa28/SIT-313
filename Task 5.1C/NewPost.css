@@ -1,0 +1,61 @@
+/* src/NewPost.css */
+
+.new-post-page {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* Header */
+.newpost-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.subtitle {
+  font-size: 20px;
+  color: #6A5ACD; 
+  margin-bottom: 8px;
+}
+
+.title {
+  font-size: 50px;
+  color: #2C2C2C;
+  margin: 0;
+}
+
+/* Select Post Type Box */
+.posttype-box {
+  background: #ECEBFF; 
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  text-align: center;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.posttype-box label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #444;
+  font-size: 25px;
+}
+
+.posttype-box select {
+  width: 60%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: #fff;
+  font-size: 20px;
+}
+
+/* Form Section */
+.form-section {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
