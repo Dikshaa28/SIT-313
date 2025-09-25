@@ -1,0 +1,17 @@
+/* src/components/SignupBox.css */
+.signup-box {
+  background: #e18cf0;;
+  padding: 0.025px;
+  text-align: center;
+}
+.signup-box input {
+  padding: 8px;
+  margin: 10px;
+}
+.signup-box button {
+  padding: 8px 12px;
+  background: rgb(101, 26, 213);
+  color: rgb(1, 1, 3);
+  border: none;
+  cursor: pointer;
+}

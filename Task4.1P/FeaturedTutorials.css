@@ -1,0 +1,30 @@
+.tutorials {
+  padding: 20px;
+  text-align: center; /* match articles */
+}
+
+.tutorial-list {
+  display: flex;
+  gap: 15px;
+  justify-content: center; /* center cards */
+}
+
+.tutorial-card {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 10px;
+  max-width: 250px;       /* prevent stretching */
+  background: #fafafa;    /* same bg as articles */
+}
+
+.tutorial-img {
+  width: 100%;
+  height: 150px;          /* consistent image height */
+  object-fit: cover;      /* crop without distortion */
+}
+
+.see-all {
+  display: inline-block;
+  margin-top: 10px;
+  color: green;
+}

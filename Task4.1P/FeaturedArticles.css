@@ -1,0 +1,27 @@
+/* src/components/FeaturedArticles.css */
+.articles {
+  padding: 20px;
+  text-align: center;
+}
+.article-list {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+.article-card {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 10px;
+  max-width: 250px;
+  background: #fafafa;
+}
+.article-img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+.see-all {
+  display: inline-block;
+  margin-top: 10px;
+  color: green;
+}

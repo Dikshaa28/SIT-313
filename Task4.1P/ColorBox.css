@@ -1,0 +1,35 @@
+/* src/components/ColorBox.css */
+.color-box {
+  background-color: #a0c413(15, 3, 35);
+  color: rgb(22, 6, 6);
+  padding: 30px;
+  margin-top: 20px;
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.footer-columns h3 {
+  margin-bottom: 10px;
+}
+
+.footer-columns p {
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.social-icons span {
+  margin-right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid rgb(60, 4, 4);
+  padding-top: 10px;
+  font-size: 14px;
+}
