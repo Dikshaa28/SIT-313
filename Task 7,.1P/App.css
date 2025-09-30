@@ -1,0 +1,49 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #e6e6fa; /* lavender background */
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-box {
+  width: 350px;
+  padding: 30px;
+  border-radius: 12px;
+  background: #f3e8ff; /* lilac card */
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #6a4c93; /* darker lavender for headings */
+}
+
+.link {
+  color: #6a4c93;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.ui.form .field input {
+  height: 42px;
+  font-size: 1rem;
+  border-radius: 8px;
+}
+
+.ui.button {
+  height: 42px;
+  font-size: 1rem;
+  border-radius: 8px;
+  margin-top: 10px;
+}

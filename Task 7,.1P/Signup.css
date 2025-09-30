@@ -1,0 +1,46 @@
+.form-box {
+  width: 380px;
+  padding: 35px;
+  margin: 50px auto;
+  border-radius: 15px;
+  background: #f9eaff; /* soft lilac */
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+.app-heading {
+  color: #5d3a9b;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.form-heading {
+  color: #6a4c93;
+  margin-bottom: 25px;
+}
+
+.switch-text {
+  margin-top: 20px;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.link {
+  color: #6a4c93;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.ui.form .field input {
+  height: 45px;
+  font-size: 1rem;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.ui.button {
+  height: 45px;
+  font-size: 1rem;
+  border-radius: 8px;
+  margin-top: 10px;
+}
