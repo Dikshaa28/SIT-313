@@ -1,0 +1,50 @@
+.newpost-page {
+  padding: 40px 60px;
+  background: #f8f6fb;
+  min-height: 100vh;
+}
+
+.newpost-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.newpost-header h1 {
+  color: #5b428e;
+  margin-bottom: 5px;
+}
+
+.newpost-header p {
+  color: #7a6ca3;
+  font-size: 0.95rem;
+}
+
+.posttype-select {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.posttype-select label {
+  margin-right: 10px;
+  font-weight: 500;
+  color: #5b428e;
+}
+
+.posttype-select select {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #cdbce3;
+  font-size: 0.95rem;
+  background: white;
+  color: #4a357b;
+}
+
+.post-form {
+  max-width: 700px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 4px 15px rgba(120, 90, 160, 0.08);
+}

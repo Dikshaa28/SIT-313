@@ -1,0 +1,72 @@
+import React, { useState } from "react";
+import "./QuestionForm.css";
+
+function QuestionForm({ onSubmit }) {
+  const [title, setTitle] = useState("");
+  const [details, setDetails] = useState("");
+  const [tags, setTags] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (typeof onSubmit === "function") {
+      const questionData = {
+        title,
+        details,
+        tags: tags
+          .split(",")
+          .map((tag) => tag.trim())
+          .filter((tag) => tag),
+      };
+      onSubmit(questionData);
+
+      // Clear form
+      setTitle("");
+      setDetails("");
+      setTags("");
+    } else {
+      console.error("onSubmit prop is not a function!");
+    }
+  };
+
+  return (
+    <form className="question-form" onSubmit={handleSubmit}>
+      <h3>Ask a Question</h3>
+
+      <div className="form-group">
+        <label>Title</label>
+        <input
+          type="text"
+          placeholder="Enter your question title"
+          value={title}
+          onChange={(e) => setTitle(e.target.value)}
+          required
+        />
+      </div>
+
+      <div className="form-group">
+        <label>Details</label>
+        <textarea
+          placeholder="Provide more context..."
+          value={details}
+          onChange={(e) => setDetails(e.target.value)}
+          rows="5"
+          required
+        />
+      </div>
+
+      <div className="form-group">
+        <label>Tags (comma separated)</label>
+        <input
+          type="text"
+          placeholder="e.g., react, javascript, firebase"
+          value={tags}
+          onChange={(e) => setTags(e.target.value)}
+        />
+      </div>
+
+      <button type="submit">Post Question</button>
+    </form>
+  );
+}
+
+export default QuestionForm;

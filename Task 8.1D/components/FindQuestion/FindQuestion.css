@@ -1,0 +1,29 @@
+.find-page {
+  padding: 40px 60px;
+  background: #f8f6fb;
+  min-height: 100vh;
+}
+
+.filters {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.filters input,
+.filters select {
+  padding: 10px 14px;
+  border: 1px solid #cdbce3;
+  border-radius: 8px;
+  background: white;
+  outline: none;
+  font-size: 0.95rem;
+  color: #4a357b;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 25px;
+}
